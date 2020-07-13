@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <h1>Current date in mm-dd-yy or mm/dd/yy or dd-mm-yy or dd/mm/yy </h1>
+    </head>
+    <body>
+        <script>
+            var currentdate=new Date()
+            var month=currentdate.getMonth()+1
+            var date=currentdate.getDate()
+            var year=currentdate.getFullYear()
+            document.write(month+"-"+date+"-"+year)
+            document.write("<br>"+month+"/"+date+"/"+year)
+            document.write("<br>"+date+"-"+month+"-"+year)
+            document.write("<br>"+date+"/"+month+"/"+year) </script>
+    </body>
+</html>
